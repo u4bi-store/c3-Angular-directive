@@ -1,0 +1,1 @@
+var app = angular.module('u4biApp',['gridshore.c3js.chart']);
