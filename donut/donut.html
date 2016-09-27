@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  </head>
+  <link href="../css/c3.min.css" rel="stylesheet" type="text/css"/>
+  <script src="../js/d3.min.js" charset="utf-8"></script>
+  <script src="../js/c3.min.js"></script>
+  <script src="../js/angular.min.js"></script>
+  <script src="../js/c3-angular.min.js"></script>
+  <script src="../js/app.js"></script>
+
+  <body ng-app="u4biApp" ng-controller="u4biCtrl">
+    <c3chart bindto-id="donut-plot1-chart">
+      <chart-column column-id="멋진놈" column-values="70" column-type="donut"/>
+      <chart-column column-id="안멋진놈" column-values="35" column-type="donut"/>
+    </c3chart>
+    <script src="../js/app/u4biApp.js"></script>
+    <script src="../js/u4bi/controller/u4biCtrl.js"></script>
+  </body>
+</html>
