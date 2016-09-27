@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  </head>
+  <link href="../css/c3.min.css" rel="stylesheet" type="text/css"/>
+  <script src="../js/d3.min.js" charset="utf-8"></script>
+  <script src="../js/c3.min.js"></script>
+  <script src="../js/angular.min.js"></script>
+  <script src="../js/c3-angular.min.js"></script>
+  <script src="../js/app.js"></script>
+
+  <body ng-app="u4biApp" ng-controller="u4biCtrl">
+    <c3chart bindto-id="chart">
+    <chart-column column-id="data1"
+        column-name="멋진놈"
+        column-color="red"
+        column-values="30,200,100,400,150,250"
+        column-type="bar"/>
+    <chart-grid show-x="false" show-y="true">
+    <chart-grid-optional axis-id="y" grid-value="300" grid-text="평균치"/>
+    </c3chart>
+
+    <script src="../js/app/u4biApp.js"></script>
+    <script src="../js/u4bi/controller/u4biCtrl.js"></script>
+  </body>
+</html>
